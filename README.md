@@ -1,1 +1,1 @@
-Projeto da Oracle voltado para expandir os profissionais em tecnologia, com Parceiria com a Alura 
+O ONE(Oracle Next Education) é um programa de educação e empregabilidade com objetivo social de capacitar pessoas em tecnologia e conectá-las com o mercado de trabalho por meio das empresas parceiras que apoiam o programa. Parceiria com a Alura.  
