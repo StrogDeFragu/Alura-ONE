@@ -2,24 +2,38 @@
 
 <Script>
 
+    function calculadoraMulti(numeroUm, numeroDois){
+        document.write(numeroUm * numeroDois);
+    }
+    calculadoraMuilt(10, 5);
+
+    function pulaLinha(){
+        document.write("<br><br>")
+    }
+
+    function mostra(texto){
+
+        document.write(texto);
+        pulaLinha();
+
+    }
+
     var anoAtual = 2022
     
-    document.write("A idade andré é " + (anoAtual - 2002) + " anos <br>" );
-    document.write("A idade maisa é " + (anoAtual - 1976) + " anos <br>" );
+    
+    //document.write("A idade andré é " + (anoAtual - 2002) + " anos ");
+    mostra("A idade andré é " + (anoAtual - 2002) + " anos ");
+    
+    //document.write("A idade maisa é " + (anoAtual - 1976) + " anos ");
+    mostra("A idade maisa é " + (anoAtual - 1976) + " anos ");
     
     anoAtual = 2025
-    document.write("A idade marcos é " + (anoAtual - 1946) + " anos <br>" );
 
-    var idadeMarcos = 20;
-    var idadeWily = 46;
-    var idadeHilario = 76
-    var media = (idadeMarcos + idadeWily + idadeHilario)/3;
+    //document.write("A idade marcos é " + (anoAtual - 1946) + " anos ");
+    mostra("A idade marcos é " + (anoAtual - 1946) + " anos ");
+    
 
-    document.write("A média das idades é "+ Math.round(media));
-
-    nome = "Marcos";
-    document.write("<br>");
-    document.write("A idade de "+nome+" é "+idadeMarcos);
+    
 
     
 </Script>
