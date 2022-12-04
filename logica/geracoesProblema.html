@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+<script>
+    function pulaLinha(){
+        document.write("<br>");
+
+    }
+    function mostra(menssagem){
+        document.write(menssagem);
+        pulaLinha();
+    }
+
+    mediaDeAnosCasal = 28;
+    primeiraGeracao = 1500;
+    anoAtual = 2022;
+
+    mediaGeracao = (anoAtual - primeiraGeracao)/mediaDeAnosCasal
+    
+    mostra("A quantidade de Gerações que tivemos desde 1500 foi "+Math.round(mediaGeracao)+"°");
+
+</script>
