@@ -1,7 +1,25 @@
 <meta charset="UTF-8">
 
 <Script>
-    document.write("A idade andré é " + (2022 - 35) + "<br>" );
-    document.write("A idade maisa é " + (2022 - 22) + "<br>" );
-    document.write("A idade marcos é " + (2022 - 20) + "<br>" );
+
+    var anoAtual = 2022
+    
+    document.write("A idade andré é " + (anoAtual - 2002) + " anos <br>" );
+    document.write("A idade maisa é " + (anoAtual - 1976) + " anos <br>" );
+    
+    anoAtual = 2025
+    document.write("A idade marcos é " + (anoAtual - 1946) + " anos <br>" );
+
+    var idadeMarcos = 20;
+    var idadeWily = 46;
+    var idadeHilario = 76
+    var media = (idadeMarcos + idadeWily + idadeHilario)/3;
+
+    document.write("A média das idades é "+ Math.round(media));
+
+    nome = "Marcos";
+    document.write("<br>");
+    document.write("A idade de "+nome+" é "+idadeMarcos);
+
+    
 </Script>
