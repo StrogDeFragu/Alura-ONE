@@ -1,0 +1,31 @@
+<meta charset ="UTF-8">
+
+<script>
+    function pularLinha(){
+        document.write("<br><br>");
+
+    }
+    function mostra(menssagem){
+        document.write(menssagem);
+        pularLinha();
+    }
+    function sorteio(n){
+        return Math.round(Math.random() * n);
+    }
+
+
+    var numeroPensado = sorteio(10);
+    console.log(numeroPensado)
+    var numeroChutado = parseInt(prompt("Chute em um número: "));
+
+    if(numeroChutado < numeroPensado){
+        mostra("Que pena o número é menor do que o número sorteado");
+    }
+    else if(numeroChutado > numeroPensado){
+        mostra("Que pena o número é maior do que o número sorteado")
+
+    }else {
+        mostra("Parabéns você acertou o número sorteado")
+    }
+    
+</script>
