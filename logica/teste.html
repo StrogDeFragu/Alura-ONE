@@ -1,6 +1,35 @@
-<meta charset="UTF-8"/>
 
+<meta charset="UTF-8">
 
-<h1>Um pequeno passo para quem já programa, um gigantesco salto para quem esta começando</h1>
+<script>
+    function pulaLinha() {
 
-    Este é meu primeiro programa!
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function a(texto) {
+
+        return "(" + texto + ")";
+    }
+
+    function b(texto) {
+
+        return "@" + texto + "@";
+    }
+
+    function c(nome, sobrenome) {
+
+        return b(nome + " " + a(sobrenome));
+
+    }
+
+    var resultado = c("Flávio", "Almeida");
+
+    mostra(resultado);
+
+</script>

@@ -14,10 +14,12 @@
 
        
     }
-    var imcMatheus = formulaIMC(80,1.61);
-    var imcAmigo = formulaIMC(55,1.61);
-    mostra("então seu IMC é "+Math.round(imcMatheus));
-    mostra("então seu IMC do seu amigo é "+Math.round(imcAmigo));
+    var nome =prompt("Informe seu Nome")
+    var AlturaInformada = prompt(nome+ ", Informe sua Altura");
+    var pesoInformado = prompt(nome+", Informe seu Peso");
+
+    imc = formulaIMC(pesoInformado, AlturaInformada);
+    mostra(nome+", o seu IMC é: "+Math.round(imc));
 
 
 </Script>
