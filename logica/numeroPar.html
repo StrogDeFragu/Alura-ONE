@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+<script>
+    
+    function pulaLiha(){
+        document.write("<br>");
+    }
+    function mostra(menssagem){
+        document.write(menssagem);
+        pulaLiha();
+    }
+
+    var numeroPar = 2;
+    var limite = parseInt(prompt("Digite o limite: "))
+
+    while(numeroPar <= limite){
+        mostra(numeroPar);
+        numeroPar = numeroPar + 2;
+    }
+
+    mostra("FIM");
+
+</script>
