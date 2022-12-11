@@ -12,20 +12,28 @@
     function sorteio(n){
         return Math.round(Math.random() * n);
     }
+    
+
+    for(var i = 0; i < 3; i++){
+
+        var numeroPensado = sorteio(10);
+        console.log(numeroPensado)
+        var numeroChutado = parseInt(prompt("Chute em um número: "));
 
 
-    var numeroPensado = sorteio(10);
-    console.log(numeroPensado)
-    var numeroChutado = parseInt(prompt("Chute em um número: "));
+        if(numeroChutado < numeroPensado){
+            mostra("Que pena o número é menor do que o número sorteado");
+         
+        }else if(numeroChutado > numeroPensado){
+            mostra("Que pena o número é maior do que o número sorteado");
 
-    if(numeroChutado < numeroPensado){
-        mostra("Que pena o número é menor do que o número sorteado");
+        }else {
+            mostra("Parabéns você acertou, o número sorteado"+numeroPensado);
+            break;
+        }
+
     }
-    else if(numeroChutado > numeroPensado){
-        mostra("Que pena o número é maior do que o número sorteado")
 
-    }else {
-        mostra("Parabéns você acertou o número sorteado")
-    }
+    
     
 </script>
